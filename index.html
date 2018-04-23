@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Task Tracker v2.0</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Task Tracker</h1>
+        <h2>v2.0</h2>
+    </header>
+
+    <div class="cards cards-left">
+        <h2>Create a Task</h2>
+
+        <form>
+            <p>
+                <label for = "Task " >Task Name</label>
+                    <input type="text"  id = "Task" maxlength="10">
+            </p>
+
+            <p>
+                <label for = "Date">Date</label>
+                    <input type="date"  id="Date">
+            </p>
+
+            <p>
+                <label for = "Assigned" >Assigned To</label>
+
+                    <input type="text"  id ="Assigned" maxlength="10">
+            </p>
+
+            <br>
+
+            <button type="button">Submit</button>
+        </form>
+    </div>
+
+    <div class="cards cards-right">
+        <h2>Existing Tasks</h2>
+        <table>
+        </table>
+    </div>
+</div>
+
+<script src="application.js"></script>
+</body>
+</html>

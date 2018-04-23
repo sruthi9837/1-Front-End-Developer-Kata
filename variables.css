@@ -1,0 +1,5 @@
+
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"#e2e2e2\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of variables.sass\A \A 1: //border colors\A 2: $border-header: #e2e2e2;\A 3: $container-gray: #f0f0f0;\A 4: \A 5: //brand colors\A 6: $brand-gray-light: #f0f0f0;\A 7: $brand-gray-dark: #ddd;"; }
